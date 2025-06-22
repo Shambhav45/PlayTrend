@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
       goToSlide(0);
     } catch (error) {
       console.error("❌ GNews API load failed:", error);
-      wrapper.innerHTML = `<div class="slide"><p>Unable to load news headlines.</p></div>`;
+      wrapper.innerHTML = `<div class="slide"><p>Unable to load headlines.</p></div>`;
     }
   }
 
