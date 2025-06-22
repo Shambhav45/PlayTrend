@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlayTrend</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans&family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <div class="logo-top">
+        <span class="logo-icon">📊</span>
+        <span class="logo-text">Play<span style="color: #00ffd5;">Trend</span></span>
+      </div>
+      <div class="byline">By Shambhav Jha</div>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Educational News</a></li>
+      <li><a href="#">Gaming Updates</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Tech Updates</a></li>
+    </ul>
+
+    <div class="search-area">
+      <button id="searchToggle">🔍</button>
+      <input type="text" id="searchInput" placeholder="Search PlayTrend..." />
+    </div>
+  </nav>
+
+ <!-- ✅ TRENDING HEADLINES SLIDER -->
+<section class="trending-section">
+  <h2 class="trending-heading">🔥 Trending Now</h2>
+
+  <div class="slider-container">
+    <button class="slider-btn left">&#10094;</button>
+
+    <div class="slider-wrapper" id="sliderWrapper">
+      <!-- Headlines will go here -->
+    </div>
+
+    <button class="slider-btn right">&#10095;</button>
+  </div>
+
+  <div class="dots" id="dots"></div>
+</section>
+
+<!-- ✅ Link to JS file -->
+<script src="script.js"></script>
+</body>
+</html>
